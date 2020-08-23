@@ -7,6 +7,7 @@
 *.tf
 *.ckpt
 /data/models/*
+!/data/models/.gitkeep
 /data/outputs/serving/*
 /data/outputs/tflite/*
 /data/outputs/*.avi
