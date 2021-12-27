@@ -1,21 +1,13 @@
-*.h5
-*.weights
-*.tar
-*.tfrecord
-*.record
-*.csv
-*.tf
-*.ckpt
 /data/models/*
 !/data/models/.gitkeep
-/data/outputs/serving/*
-/data/outputs/tflite/*
 /data/outputs/*.avi
 /data/outputs/*.mp4
-/data/images/train/*
-/data/images/test/*
+/data/videos/*
+!/data/videos/.gitkeep
+/data/dataset/*
+!/data/dataset/.gitkeep
 /logs/
-/data/voc2012_raw/
+.vscode
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
