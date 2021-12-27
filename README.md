@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 #### Installing tensorflow object detection API
 
-- Clone the tensorflow model repository fro github into desired location
+- Clone the tensorflow model repository fro github into desired location. Tested with commit has `439d515a059740ba926ec2442299300fe52aa101`
 
 ```bash
 git clone https://github.com/tensorflow/models
