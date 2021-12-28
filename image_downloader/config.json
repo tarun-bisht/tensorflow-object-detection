@@ -1,9 +1,16 @@
 {
     "chromedriver":"F:\\Softwares\\chromedriver.exe",
     "keywords":[
-        "Monkey",
-        "Cats"
+        "dogs with monkeys",
+        "cats groups",
+        "multiple dogs",
+        "dogs and cats",
+        "cats and monkeys",
+        "dogs groups",
+        "monkeys",
+        "dogs",
+        "cats"
     ],
     "limit":200,
-    "size":[1280,720]
+    "size":[480,268]
 }

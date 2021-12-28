@@ -23,7 +23,9 @@ flags.DEFINE_integer(
     "early_stopping_patience", 5, "number of steps to wait before early stopping"
 )
 flags.DEFINE_float("learning_rate", 0.01, "model training learning rate")
-flags.DEFINE_string("model_name", None, "training model name used to store trained checkpoint")
+flags.DEFINE_string(
+    "model_name", None, "training model name used to store trained checkpoint"
+)
 flags.DEFINE_integer("image_width", 320, "image width for training model")
 flags.DEFINE_integer("image_height", 320, "image height for training model")
 flags.DEFINE_boolean(
